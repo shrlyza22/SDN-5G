@@ -1,0 +1,7 @@
+services:
+  gnb:
+    restart: unless-stopped
+    sysctls:
+      net.ipv4.ip_nonlocal_bind: 1
+  ue:
+    restart: unless-stopped

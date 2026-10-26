@@ -1,0 +1,18 @@
+Fri Oct 23 05:54:21 AM UTC 2026
+               total        used        free      shared  buff/cache   available
+Mem:           7.7Gi       977Mi       6.2Gi       2.7Mi       852Mi       6.8Gi
+Swap:          4.0Gi          0B       4.0Gi
+/dev/mapper/ubuntu--vg-ubuntu--lv   48G   18G   28G  39% /
+ue CPU=0.19% MEM=6.832MiB / 7.709GiB
+gnb CPU=0.18% MEM=13.75MiB / 7.709GiB
+smf CPU=0.00% MEM=51.09MiB / 7.709GiB
+udm CPU=0.00% MEM=12.5MiB / 7.709GiB
+amf CPU=0.00% MEM=35.74MiB / 7.709GiB
+ausf CPU=0.00% MEM=19.07MiB / 7.709GiB
+nssf CPU=0.00% MEM=9.617MiB / 7.709GiB
+bsf CPU=0.00% MEM=9.973MiB / 7.709GiB
+db CPU=1.13% MEM=215MiB / 7.709GiB
+upf CPU=0.00% MEM=41.59MiB / 7.709GiB
+nrf CPU=0.00% MEM=12.8MiB / 7.709GiB
+udr CPU=0.00% MEM=10.59MiB / 7.709GiB
+pcf CPU=0.00% MEM=11.01MiB / 7.709GiB

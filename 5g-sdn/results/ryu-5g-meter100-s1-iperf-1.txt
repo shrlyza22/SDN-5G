@@ -1,0 +1,4 @@
+[  5]   0.00-30.00  sec   342 MBytes  95.8 Mbits/sec  15111            sender
+[  5]   0.00-30.00  sec   341 MBytes  95.3 Mbits/sec                  receiver
+
+iperf Done.

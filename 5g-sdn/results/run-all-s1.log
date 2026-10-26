@@ -1,0 +1,161 @@
+nohup: ignoring input
+##### ryu-simple-s1
+ Container gnb Recreate 
+ Container gnb Recreated 
+ Container gnb Starting 
+ Container gnb Started 
+ Container ue Recreate 
+ Container ue Recreated 
+ Container ue Starting 
+ Container ue Started 
+== ping UE -> UPF (100 paket) ==
+100 packets transmitted, 100 received, 0% packet loss, time 19924ms
+rtt min/avg/max/mdev = 0.737/1.976/6.101/0.878 ms
+== ping UE -> 8.8.8.8 (100 paket) ==
+100 packets transmitted, 100 received, 0% packet loss, time 19887ms
+rtt min/avg/max/mdev = 19.356/22.729/30.997/2.330 ms
+== iperf3 run 1 (30 s) ==
+[  5]   0.00-30.00  sec  1.69 GBytes   483 Mbits/sec  1426            sender
+[  5]   0.00-30.00  sec  1.69 GBytes   483 Mbits/sec                  receiver
+
+iperf Done.
+== iperf3 run 2 (30 s) ==
+[  5]   0.00-30.00  sec  1.70 GBytes   487 Mbits/sec  1567            sender
+[  5]   0.00-30.00  sec  1.70 GBytes   486 Mbits/sec                  receiver
+
+iperf Done.
+== iperf3 run 3 (30 s) ==
+[  5]   0.00-30.00  sec  1.72 GBytes   492 Mbits/sec  1948            sender
+[  5]   0.00-30.00  sec  1.72 GBytes   492 Mbits/sec                  receiver
+
+iperf Done.
+selesai -> /home/sdn5g/5g-sdn/results/ryu-simple-s1-*
+##### ryu-5g-s1
+ Container gnb Recreate 
+ Container gnb Recreated 
+ Container gnb Starting 
+ Container gnb Started 
+ Container ue Recreate 
+ Container ue Recreated 
+ Container ue Starting 
+ Container ue Started 
+== ping UE -> UPF (100 paket) ==
+100 packets transmitted, 100 received, 0% packet loss, time 19935ms
+rtt min/avg/max/mdev = 0.793/1.703/3.807/0.716 ms
+== ping UE -> 8.8.8.8 (100 paket) ==
+100 packets transmitted, 100 received, 0% packet loss, time 19882ms
+rtt min/avg/max/mdev = 19.691/23.411/38.088/2.675 ms
+== iperf3 run 1 (30 s) ==
+[  5]   0.00-30.00  sec  1.75 GBytes   500 Mbits/sec  1566            sender
+[  5]   0.00-30.00  sec  1.75 GBytes   500 Mbits/sec                  receiver
+
+iperf Done.
+== iperf3 run 2 (30 s) ==
+[  5]   0.00-30.00  sec  1.68 GBytes   480 Mbits/sec  1553            sender
+[  5]   0.00-30.00  sec  1.68 GBytes   480 Mbits/sec                  receiver
+
+iperf Done.
+== iperf3 run 3 (30 s) ==
+[  5]   0.00-30.00  sec  1.73 GBytes   496 Mbits/sec  1725            sender
+[  5]   0.00-30.00  sec  1.73 GBytes   496 Mbits/sec                  receiver
+
+iperf Done.
+selesai -> /home/sdn5g/5g-sdn/results/ryu-5g-s1-*
+##### ryu-5g-meter100-s1
+ Container gnb Recreate 
+ Container gnb Recreated 
+ Container gnb Starting 
+ Container gnb Started 
+ Container ue Recreate 
+ Container ue Recreated 
+ Container ue Starting 
+ Container ue Started 
+== ping UE -> UPF (100 paket) ==
+100 packets transmitted, 100 received, 0% packet loss, time 19914ms
+rtt min/avg/max/mdev = 0.812/2.350/5.044/0.775 ms
+== ping UE -> 8.8.8.8 (100 paket) ==
+100 packets transmitted, 100 received, 0% packet loss, time 19884ms
+rtt min/avg/max/mdev = 18.938/24.367/75.859/6.635 ms
+== iperf3 run 1 (30 s) ==
+[  5]   0.00-30.00  sec   342 MBytes  95.8 Mbits/sec  15111            sender
+[  5]   0.00-30.00  sec   341 MBytes  95.3 Mbits/sec                  receiver
+
+iperf Done.
+== iperf3 run 2 (30 s) ==
+[  5]   0.00-30.00  sec   333 MBytes  93.1 Mbits/sec  15625            sender
+[  5]   0.00-30.00  sec   332 MBytes  92.7 Mbits/sec                  receiver
+
+iperf Done.
+== iperf3 run 3 (30 s) ==
+[  5]   0.00-30.00  sec   333 MBytes  93.1 Mbits/sec  14977            sender
+[  5]   0.00-30.00  sec   332 MBytes  92.7 Mbits/sec                  receiver
+
+iperf Done.
+selesai -> /home/sdn5g/5g-sdn/results/ryu-5g-meter100-s1-*
+##### ryu-5g-meter50-s1
+ Container gnb Recreate 
+ Container gnb Recreated 
+ Container gnb Starting 
+ Container gnb Started 
+ Container ue Recreate 
+ Container ue Recreated 
+ Container ue Starting 
+ Container ue Started 
+== ping UE -> UPF (100 paket) ==
+100 packets transmitted, 100 received, 0% packet loss, time 19925ms
+rtt min/avg/max/mdev = 0.853/2.180/7.160/1.153 ms
+== ping UE -> 8.8.8.8 (100 paket) ==
+100 packets transmitted, 100 received, 0% packet loss, time 19878ms
+rtt min/avg/max/mdev = 19.501/22.594/36.167/2.442 ms
+== iperf3 run 1 (30 s) ==
+[  5]   0.00-30.00  sec   172 MBytes  48.0 Mbits/sec  14061            sender
+[  5]   0.00-30.00  sec   170 MBytes  47.6 Mbits/sec                  receiver
+
+iperf Done.
+== iperf3 run 2 (30 s) ==
+[  5]   0.00-30.00  sec   167 MBytes  46.7 Mbits/sec  13498            sender
+[  5]   0.00-30.00  sec   166 MBytes  46.4 Mbits/sec                  receiver
+
+iperf Done.
+== iperf3 run 3 (30 s) ==
+[  5]   0.00-30.00  sec   167 MBytes  46.7 Mbits/sec  13196            sender
+[  5]   0.00-30.00  sec   166 MBytes  46.3 Mbits/sec                  receiver
+
+iperf Done.
+selesai -> /home/sdn5g/5g-sdn/results/ryu-5g-meter50-s1-*
+##### kembali ke konfigurasi final
+ Container gnb Recreate 
+ Container gnb Recreated 
+ Container gnb Starting 
+ Container gnb Started 
+ Container ue Recreate 
+ Container ue Recreated 
+ Container ue Starting 
+ Container ue Started 
+== controller ==
+target              : "tcp:127.0.0.1:6653"
+is_connected        : true
+fail-mode: secure
+
+== container ==
+NAMES      STATUS
+ue         Up 10 seconds
+gnb        Up 21 seconds
+ryu-ctrl   Up 32 seconds
+smf        Up 29 minutes
+amf        Up 29 minutes
+upf        Up 29 minutes
+ryu-ctrl CPU=0.02% MEM=48.65MiB / 256MiB
+
+== flow per kelas (cookie 0x1=L2, 0x2=N2, 0x3=N3, 0x9=DROP) ==
+      1 cookie=0x0
+      2 cookie=0x1
+      1 cookie=0x2
+
+== N2 ==
+[2026-10-23 07:30:52.027] [ngap] [info] NG Setup procedure is successful
+[32m10/23 07:30:52.026[0m: [[33mamf[0m] [1;32mINFO[0m: [Added] Number of gNBs is now 1 (../src/amf/context.c:1277)
+
+== N3 (ping UE -> UPF) ==
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 3.132/3.779/4.272/0.477 ms

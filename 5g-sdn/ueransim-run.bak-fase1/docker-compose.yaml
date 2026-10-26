@@ -1,0 +1,41 @@
+services:
+  gnb:
+    container_name: gnb
+    image: "gnb:v3.3.0"
+    command: "-c /etc/ueransim/custom/gnb.yaml"
+    networks:
+      open5gs:
+        aliases:
+          - gnb.ueransim.org
+    configs:
+      - source: gnb_config
+        target: /etc/ueransim/custom/gnb.yaml
+
+  ue:
+    container_name: ue
+    image: "ue:v3.3.0"
+    command: "-c /etc/ueransim/custom/ue.yaml"
+    networks:
+      open5gs:
+        aliases:
+          - ue.ueransim.org
+    configs:
+      - source: ue_config
+        target: /etc/ueransim/custom/ue.yaml
+    cap_add:
+      - NET_ADMIN
+    devices:
+      - "/dev/net/tun"
+    depends_on:
+      - gnb
+
+networks:
+  open5gs:
+    external: true
+    name: open5gs
+
+configs:
+  gnb_config:
+    file: ./configs/gnb.yaml
+  ue_config:
+    file: ./configs/ue.yaml
